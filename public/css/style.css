@@ -1,0 +1,293 @@
+/* ==========================================================================
+   Keko custom styles
+   ========================================================================== */
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto Slab';
+} 
+
+/* Backgrounds */
+.schema-gray{
+    background-color:#eee ; /*#e9eaed*/
+    height: auto !important;
+    min-height: 86%
+}
+
+.schema-white{
+    background-color: #ffffff;
+}
+
+.schema-teal{
+    background-color: #31a463;
+}
+
+.schema-light-teal{
+  background-color: #dff0d8;
+}
+
+.schema-light-gray{
+    background-color: #f1f2f2;
+}
+
+.schema-light-blue{
+    background-color: #E7EBF2;
+}
+
+.schema-black{
+    background-color: #000000;
+}
+
+.schema-red{
+    background-color: #c9302c;
+}
+
+.schema-yellow{
+  background-color: #ffff99;
+}
+
+.schema-green{
+    background-color: #5cb85c;
+}
+
+.schema-dark{
+  background-color: #202024;
+}
+
+.schema-ultra-gray{
+  background-color: #fafafa;
+}
+
+.schema-navy-blue{
+  background: #343D46;
+}
+
+.schema-purple{
+  background: #660066;
+}
+
+/*colores de letras*/
+.color-black{
+    color:#000000;
+}
+
+.text-blue{
+    color:#2ab1de;
+}
+
+.text-blue-fb{
+   color:#3b5998;
+} 
+
+.text-light-blue{
+    color: #E7EBF2;
+}
+
+.text-navy-blue{
+  color: #343D46;
+}
+
+.text-red{
+    color:#de2f2f;
+}
+
+.text-yellow{
+    color:#ebdb00;
+}
+
+.text-green{
+    color:#159049;
+}
+
+.text-orange{
+    color:#ffa200;
+}
+
+.text-brown{
+   color:#6e4114;
+}
+
+.text-black{
+  color:#333;
+}
+
+.text-white{
+  color:#ffffff;
+}
+/*familia de letras*/
+.montserrat{
+  font-family: 'Montserrat',Helvetica;
+  font-weight: 700;
+}
+
+.montserrat-btn{
+  font-family: 'Montserrat',Helvetica;
+  font-weight: 400;
+}
+
+.nunito{
+  font-family: 'Roboto slab';
+  font-weight: 400;
+}
+
+.roboto{
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.roboto-btn{
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.roboto-slab{
+  font-family: 'Roboto slab';
+  font-weight: 400;
+}
+
+.open-sans{
+  font-family: 'Open sans';
+  font-weight: 400;
+
+}
+
+/*highlights*/
+
+
+.highlight{
+  background-color: green;
+}
+
+.highlight2{
+  background-color: blue;
+}
+
+.highlight3{
+  background-color: yellow;
+}
+
+.highlight4{
+  background-color: orange;
+}
+
+.highlight5{
+  background-color: red;
+}
+
+/*Helpers*/
+.nospace{
+    margin-bottom:-20px;
+}
+
+.nospacetop{
+    margin-top: -20px;
+}
+
+.space{
+    margin-top:20px;
+}
+
+.space-sm{
+    margin-top:10px;
+}
+
+.display-errors{
+    color:#a94442; 
+    border-color:#ebccd1;
+}
+
+.display-warning{
+    color:#8a6d3b; 
+    border-color:#faebcc;
+}
+
+.display-success{
+  color:#31708f;
+  border-color:#bce8f1;
+}
+
+.dsahboard2 > a:visited, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: #31A463;
+
+}
+
+/* Empiezan Estilos Dashboard2 */
+
+
+#dashboard2 .box{
+    /*background-color:#333;*/
+    background-color: #31a463;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom:30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 0.85em;
+    border: #d4d4d4 1px solid;
+    -moz-box-shadow: 0 0 5px #ccc; 
+    -webkit-box-shadow: 0 0 5px #ccc; 
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 10px;
+    height:200px;
+}
+
+#dashboard2 a{
+    text-decoration: none;
+}
+
+#dashboard2 .box a{
+    color:#337ab7;
+}
+
+#dashboard2 .box .ft a:hover{
+    color:#337ab7;
+    text-decoration: underline;
+}
+
+#dashboard2 .box h3{
+    font-family: 'Montserrat','Roboto',Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color:white;
+}
+
+#dashboard2 .box .content{
+    background-color: #f5f5f5;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+
+
+#dashboard2 .box .ft{
+    border-top: 1px solid #ccc;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom: #d4d4d4 1px solid;
+}
+
+
+/*Terminan estilos para el dashboard2 */
+
+
+
+
+
+
+
+
+
+
+
+
